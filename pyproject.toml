@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "module-10"
+version = "0.1.0"
+description = ""
+authors = ["Сергей Сытник <sytnikserhii22038@gmail.com>"]
+readme = "README.md"
+packages = [{include = "module_10"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pymongo = "^4.2.0"
+dnspython = "^2.2.1"
+redis-lru = "^0.1.2"
+mongoengine = "^0.24.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
